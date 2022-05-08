@@ -1,14 +1,13 @@
 import firebase from "firebase";
-require("@firebase/firestore");
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAkp3gQdHbMPD5pCfHbBzIIgFpdCJXD5KM",
-  authDomain: "wily-app-v2.firebaseapp.com",
-  projectId: "wily-app-v2",
-  storageBucket: "wily-app-v2.appspot.com",
-  messagingSenderId: "772559744213",
-  appId: "1:772559744213:web:9417b879882f231175065c",
-  measurementId: "G-H8Y352W6Z2"
+  apiKey: "AIzaSyAccSbNHw2qynVoAQUU0baJeEdX0638MGk",
+  authDomain: "e-library-ffda5.firebaseapp.com",
+  projectId: "e-library-ffda5",
+  storageBucket: "e-library-ffda5.appspot.com",
+  messagingSenderId: "547840128490",
+  appId: "1:547840128490:web:ea74ebbaa8dc85b7b0ee93"
 };
 
 firebase.initializeApp(firebaseConfig);
